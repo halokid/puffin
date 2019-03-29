@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package go.micro.srv.puffin.ipdb;
+
+service IpDb {
+	rpc GetIpInfo(Request) returns (Response) {}
+}
+
+message Request {
+	string ip = 1;
+}
+
+message Response {
+	string ipInfo = 1;
+}
