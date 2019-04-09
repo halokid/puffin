@@ -3,7 +3,7 @@ package main
 import (
   "context"
   "github.com/micro/go-micro"
-  ipdbpro "github.com/r00tjimmy/puffin/ipdb/srv/proto/ipdbpro"
+  ipdbpro "../srv/proto/ipdbpro"
   "log"
   "time"
 )
